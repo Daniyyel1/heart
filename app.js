@@ -31,9 +31,11 @@ dark.addEventListener('click',()=>{
     body.classList.toggle('active')
     if(dark.innerHTML === 'darkmode'){
         dark.innerHTML = 'Lightmode'
+        move.style.color = 'red'
 
     }else if(dark.innerHTML === 'Lightmode'){
         dark.innerHTML = 'darkmode'
+        move.style.color = 'black'
     }
 })
 

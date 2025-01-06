@@ -1,7 +1,7 @@
 .heart{
     width: 150px;
     aspect-ratio: 1/1;
-    border-image: radial-gradient(red 69%, black 0%)
+    border-image: radial-gradient(red 69%, green 0%)
      84.5%/50%;
     clip-path: polygon(-40% 0%, 50% 91%, 140% 0%);
     top: -100%;
@@ -61,6 +61,7 @@
     font-weight: 600;
     text-transform: capitalize;
     cursor: pointer;
+    border: none;
 }
 
 .container h2{
@@ -82,7 +83,7 @@
 .i.active{
     top: 0;
     font-size: 60px;
-    color: #fff;
+    color: #000;
 }
 
 .you{
@@ -154,6 +155,7 @@ body.active{
     margin-top: 20px;
     margin-left: 10px;
     cursor: pointer;
+    border: none;
 }
 
 @media screen and (max-width: 900px){
@@ -177,5 +179,6 @@ body.active{
 
     .heart{
         margin-left: -50px;
+        width: 90px;
     }
 }
